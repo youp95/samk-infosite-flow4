@@ -1,0 +1,167 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: #393b41;
+    
+}
+/**-------------------------------------------**/
+#header{
+    border-bottom: 5px solid #ffee00;
+    background-color: #9fa8aa;
+}
+.navh1{
+    color:white;
+}
+#signup li{
+display: inline;
+    
+}
+.stupidlink{
+    font-size: 200%;
+    text-decoration: none;
+    background-color:#9fa8aa;
+    color: white;
+    padding: 2px 6px 2px 6px ;
+    border-right: 3px solid white;
+
+}
+.stupidlink1{
+    font-size: 200%;
+    text-decoration: none;
+    background-color:  #9fa8aa;
+    color: white;
+    padding: 2px 6px 2px 6px;
+
+}
+a:link{
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+  }
+/**-------------------------------------------**/
+  #samk{
+      font-weight: bold;
+  }
+  #para{
+      columns: 20em;
+      column-span: all;
+  }
+  #app{
+    
+     height: 300px;
+     
+  }
+  #quiztitle{
+      font-weight: bold;
+  }
+  #quiz{
+      margin-bottom: 10em;
+  }
+/**-------------------------------------------**/
+#banner{
+    height: 700px;
+}
+/**-------------------------------------------**/
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #9fa8aa;
+    border-top: 5px solid #ffee00;
+    color: white;    
+}
+#footh3{
+    padding-left: 4em;
+}
+.footli{
+ display: block;
+ float: left;
+ text-align: center;
+ padding-left: 5em;
+}
+/**-------------------------------------------**/
+@media screen and (max-width: 1024px) {
+    #banner{
+        display: none;
+    }
+
+  }
+
+  /**-------------------------------------------**/
+  * {box-sizing: border-box}
+
+  #navsignup{
+    width: 20%;
+    padding-right: 3%;
+  }
+
+
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }

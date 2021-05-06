@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="utf-8">
+<title>Samkørsel Info-site</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav id="header" class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+           <h1 class="navh1">Gate 21 - Samkørsel</h1>         
+          </div>
+            <div id="navsignup">
+ <!-- Button to open the modal -->
+ <button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+
+ <!-- The Modal (contains the Sign Up form) -->
+ <div id="id01" class="modal">
+   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">times;</span>
+   <form class="modal-content" action="/action_page.php">
+     <div class="container">
+       <h1>Sign Up</h1>
+       <p>Please fill in this form to create an account.</p>
+       <hr>
+       <label for="email"><b>Email</b></label>
+       <input type="text" placeholder="Enter Email" name="email" required>
+ 
+       <label for="psw"><b>Password</b></label>
+       <input type="password" placeholder="Enter Password" name="psw" required>
+ 
+       <label for="psw-repeat"><b>Repeat Password</b></label>
+       <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+ 
+       <label>
+         <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+       </label>
+ 
+       <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+ 
+       <div class="clearfix">
+         <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+         <button type="submit" class="signup">Sign Up</button>
+       </div>
+     </div>
+   </form>
+ </div> 
+            </div>
+         </div>
+      </nav> 
+      
+<div class="container">
+    <div class="row">
+     <div id="groupdiv" class="col-sm-9">
+        <div id="title" class="d-flex justify-content-center">
+          <h1 id="samk">Samkørsel</h1>
+        </div>
+
+        <div id="para">
+          <p>
+            Gate 21 er et non-profit partnerskab mellem regioner, kommuner, virksomheder og vidensinstitutioner. 
+            Gate 21 udvikler, tester og udbreder mobilitetsløsninger og tiltag, der reducerer CO2-udledning og samtidig reducerer trafikstøj og dermed er medvirkende til at facilitere bedre by og landområder, fremmer grøn vækst og sundere borgere. Gate 21 har gennem en årrække arbejdet med at udarbejdet en bæredygtige samkørselsmodel til brug i hovedstadsregionen. Resultatet heraf er en samkørsels-app som har til hensigt at fremme samkørsel på arbejdspladser. 
+            
+            Om samkørsel:
+            
+            Samkørsel er, når flere personer kører sammen f.eks. på vej til arbejde. Ved at benytte sig af samkørsel kan pendlere deles om udgifterne til benzin og samtidig udlede mindre CO2.
+            </p>
+            <p>
+              Vores samkørsels-app er lige til at gå til for virksomheder, hvor kollegaer fra samme arbejdsplads, nemt kan komme i gang med at bruge samkørsel i den daglige rejse til og fra arbejde.
+
+              Samkørsel er en fantastisk måde at lære dine kolleger bedre at kende, møde nye mennesker og spare penge på samme tid. Vi kender alle stresset ved at skulle på arbejde eller i skole om morgenen, og tanken om myldretiden gør ikke rejsen mere attraktiv. Med samkørsel kan en stor portion af bilerne på vejen fjernes, hvilket ville betyde mindre kødannelse i myldretiden. Ved at lade bilen stå derhjemme og tage med en kollega på arbejde spare du ikke kun på din egen pengepung, men du spare også miljøet for en masse forurening. 
+
+            </p>
+        </div>
+
+        <div id="banner-app" class="d-flex justify-content-center">
+          <iframe id="app" src="https://doc-10-3c-adspreview.googleusercontent.com/preview/9o5bees06oeguhr10neq55qcti27eh7n/m0n4sr22kht40p90murkigsjokap6mf0/1620172800000/36829421/previewuser/gwd.36829421?render=blank&creativeId=gwd.36829421&irsk=CICAgKC_7uTF1AE" frameborder="0"></iframe>
+        </div>
+
+        <div  class="d-flex justify-content-center">
+          <h1 id="quiztitle">Samkørsel Quiz</h1>
+        </div>
+
+        <div id="quiz">
+          <h4></h4>
+          <div class="option"></div>
+        </div>
+     </div>
+
+     <div class="col-sm-3">
+        <iframe id="banner" src="https://doc-00-08-adspreview.googleusercontent.com/preview/9o5bees06oeguhr10neq55qcti27eh7n/ajpm4dbsu4fneoos1qib1v8a6ivrml9n/1620172800000/2072446/previewuser/gwd.2072446?render=blank&creativeId=gwd.2072446&irsk=CICAgKC_7uS82wE" frameborder="0"></iframe>
+      </div>
+    </div>
+</div>
+<footer>
+  <h3 id="footh3">webudvikler</h3>
+  <ul>
+    <li class="footli">Mads-Emil Falk</li>
+    <li class="footli">Gry Hovmand</li>
+    <li class="footli">Sofia Madsen</li>
+    <li class="footli">Younes Piskorczyk</li>
+    <li class="footli">Sarah Ryholt</li>
+  </ul>
+</footer>
+<script src="main.js"></script>
+</body>
+</html> 
+<!-- 
+                  <ul id="signup">
+              <li><a class="stupidlink" href="#"> Sign Up</a></li>
+            <li><a class="stupidlink1" href="#"> Login</a></li>
+          </ul>
+ -->
